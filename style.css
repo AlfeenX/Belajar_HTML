@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    background-color:#ffff;
+    font-family: Poppins, Roboto, sans-serif;
+    height: 100vh;
+}
+
+.navigasi {
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.potofolio {
+    font-weight: 700;
+}
+
+.navbar {
+
+}
