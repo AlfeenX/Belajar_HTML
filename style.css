@@ -10,12 +10,105 @@ body {
     flex-direction: row;
     align-items:center;
     justify-content: space-between;
+    height: 10vh;
 }
 
-.potofolio {
+.portofolio {
     font-weight: 700;
+    margin-left: 10px;
+    font-size:22px;
 }
 
-.navbar {
+a {
+    text-decoration: none;
+    color: #000;
+    margin-right: 5px;
+    padding: 5px;
+    border: 2px solid blueviolet;
+    border-radius:15px;
+    background-color:blueviolet;
+    font-weight: 500;
+}
+
+a:last-child {
+    margin-right: 10px;
+}
+
+a:hover {
+    background-color: #ffff;
+    color:blueviolet;
+}
+
+.content1 {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 40px 0 0 10px;
+    height: 85vh;
+}
+
+
+.text-content {
+    width: 40em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+}
+
+.nama {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom:15px;
+    line-height: 50px;
+}
+
+.profesi {
+    background-color: blueviolet;
+    padding: 4px;
+    margin:0;
+    width: 175px;
+    border-radius: 10px;
+    text-align: center;
+    font-style: italic;
+}
+
+.deskripsi {
+    text-align: justify;
+    margin-right: 10px;
+    line-height:25px;
+}
+
+.language {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bahasa {
+    height:2em;
+    margin:20px 40px 40px 0;
+    color: blueviolet;
+}
+
+.images {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    flex: 1;
+}
+
+.ilustrasi {
+    width: 400px;
+    background-color: blueviolet;
+    border-radius: 50% 0 0 50%;
+}
+
+.footer {
+    margin-top: auto;
+    width: 100%;
+    font-size: 10px;
+    text-align: center;
+    height:5vh;
 
 }
